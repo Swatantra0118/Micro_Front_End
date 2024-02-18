@@ -1,7 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { Product } from 'projects/shared/src/lib/product.model';
-import { SharedCartService } from 'projects/shared/src/lib/shared-cart.service';
 
 @Component({
   selector: 'app-my-cart',
@@ -45,7 +44,6 @@ export class MyCartComponent implements OnInit {
   }
 
   calculateTotal(): number {
-    // Assuming you want to calculate the total price of items in the cart
     return this.cartItems.reduce((total, item) => total + parseFloat(item.price), 0);
 
     //return 0;
@@ -53,6 +51,5 @@ export class MyCartComponent implements OnInit {
 
   checkout(): void {
     alert('Checkout initiated');
-    // You can implement the logic for the checkout process here
   }
 }
