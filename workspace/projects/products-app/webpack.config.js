@@ -48,7 +48,8 @@ module.exports = {
           "@angular/common": { singleton: true, strictVersion: true, requiredVersion: 'auto' }, 
           "@angular/common/http": { singleton: true, strictVersion: true, requiredVersion: 'auto' }, 
           "@angular/router": { singleton: true, strictVersion: true, requiredVersion: 'auto' },
-
+          //"projects/shared/src/lib/shared-cart.service": { singleton: true, strictVersion: true, requiredVersion: 'auto', eager: true },
+        
           ...sharedMappings.getDescriptors()
         })
         

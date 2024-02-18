@@ -1,15 +1,20 @@
+
 <h1>This is products app</h1>
 <br>
 <div class="row m-2">
-    <div class="col-md-3 mb-4" *ngFor="let product of products">
-      <div class="card border-primary h-100" style="max-width: 20rem;">
+  <div class="col-md-3 mb-4" *ngFor="let product of products">
+    <div class="card border-primary h-100" style="max-width: 20rem;">
       <img src="{{product.image}}" style="aspect-ratio: 1;"/>
       <div class="card-body">
-      <p class="card-text">{{product.title}}</p>
+        <p class="card-text">{{product.title}}</p>
       </div>
       <div class="card-footer">
-    <p><b>Price: {{product.price}}</b></p>
+        <p><b>Price: {{product.price}}</b></p>
+        <div class="addto">
+    
+        <button class="btn btn-danger" (click)="addToCart(product)">Add to Cart</button>
+        </div>
       </div>
     </div>
   </div>
-  </div>
+</div>
