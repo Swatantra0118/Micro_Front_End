@@ -12,7 +12,7 @@ import { AddProductModule } from './add-product/add-product.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AddProductModule
+    AddProductModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

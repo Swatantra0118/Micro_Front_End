@@ -224,23 +224,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\talhakhan\\.nuget\\packages\\": {},
+    "C:\\Users\\swatantratiwari\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\talhakhan\\Desktop\\MFETaskBackend\\MFETaskBackend\\MFETaskBackend.csproj",
+      "projectUniqueName": "C:\\Users\\swatantratiwari\\OneDrive - Nagarro\\Desktop\\Assignment\\Micro_Front_End\\Micro_Front_End\\MFETaskBackend\\MFETaskBackend\\MFETaskBackend.csproj",
       "projectName": "MFETaskBackend",
-      "projectPath": "C:\\Users\\talhakhan\\Desktop\\MFETaskBackend\\MFETaskBackend\\MFETaskBackend.csproj",
-      "packagesPath": "C:\\Users\\talhakhan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\talhakhan\\Desktop\\MFETaskBackend\\MFETaskBackend\\obj\\",
+      "projectPath": "C:\\Users\\swatantratiwari\\OneDrive - Nagarro\\Desktop\\Assignment\\Micro_Front_End\\Micro_Front_End\\MFETaskBackend\\MFETaskBackend\\MFETaskBackend.csproj",
+      "packagesPath": "C:\\Users\\swatantratiwari\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\swatantratiwari\\OneDrive - Nagarro\\Desktop\\Assignment\\Micro_Front_End\\Micro_Front_End\\MFETaskBackend\\MFETaskBackend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\talhakhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\swatantratiwari\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

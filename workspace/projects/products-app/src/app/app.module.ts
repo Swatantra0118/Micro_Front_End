@@ -6,8 +6,6 @@ import { AppComponent } from './app.component';
 import { AddProductModule } from 'projects/mfe-app/src/app/add-product/add-product.module';
 import { CommonModule } from '@angular/common';
 import { ProductsModule } from './products/products.module';
-import { SharedModule } from 'projects/shared/src/lib/shared.module';
-
 
 @NgModule({
   declarations: [
@@ -19,8 +17,7 @@ import { SharedModule } from 'projects/shared/src/lib/shared.module';
     HttpClientModule,
     AddProductModule,
     CommonModule,
-    ProductsModule,
-    SharedModule,
+    ProductsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

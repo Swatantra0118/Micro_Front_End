@@ -7,8 +7,6 @@ import { loadRemoteModule } from '@angular-architects/module-federation';
 const MFE_APP_URL = "http://localhost:4300/remoteEntry.js";
 const MFE_APP_URL_T = "http://localhost:7000/remoteProductEntry.js";
 
-const MFE_APP_URL_Talha = "http://localhost:8008/remoteCartEntry.js";
-
 const routes: Routes = [
   {path:'', redirectTo: '/home', pathMatch: 'full'},
   {path: 'home', component: HomeComponent},
@@ -31,16 +29,6 @@ const routes: Routes = [
         remoteName: "productsApp",
         exposedModule: "./ProductsModule"
       }).then(m => m.ProductsModule).catch(err => console.log(err));
-    }
-  },
-  {
-    path: 'cartmfe',
-    loadChildren: () => {
-      return loadRemoteModule({
-        remoteEntry: MFE_APP_URL_Talha,
-        remoteName: "cart",
-        exposedModule: "./MyCartModule"
-      }).then(m => m.MyCartModule).catch(err => console.log(err));
     }
   }
 ];

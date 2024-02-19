@@ -39,7 +39,7 @@ module.exports = {
         // For hosts (please adjust)
         remotes: {
             "mfeApp": "mfeApp@http://localhost:4300/remoteEntry.js",
-             "cart": "cart@http://localhost:8008/remoteCartEntry.js"
+
         },
 
         shared: share({
